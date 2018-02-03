@@ -15,29 +15,29 @@ I am choosing to make this game because both my parents received their citizensh
 
 ## Initial thoughts on game structure 
 
-1. I want the player to initially be shown a landing page containing:
+A. I want the player to initially be shown a landing page containing:
 Passport control is a trivia game based on a selection from the civics(history and government) questions for the naturalization process test. Player must answer 6 out of 10 questions in order to beat the game. Remember if you get a wrong answer to use it as a learning experience and have fun!
 
 All questions will be multiple choice questions, where the player must choose the WRONG option. Meaning the player will be shown a question such as:
 
 Which of the following is NOT a day in the week?
-1.Friday
-2.Saturday
-3.Briday				IS THE CORRECT ANSWER.
-4.Thursday
+A.Friday
+B.Saturday
+C.Briday				IS THE CORRECT ANSWER.
+D.Thursday
 
-2. Player then gets to choose difficulty level:
+B. Player then gets to choose difficulty level:
 Difficulty is assessed on actual difficulty of the question and the amount of time you (the player) get to see the question and answer correctly. Choose one of the following difficulty levels:
 
-1. BEGINNER
-2. EASY
-3. MODERATE
-4. HARD
-5. DIABOLICAL
+A. BEGINNER
+B. EASY
+C. MODERATE
+D. HARD
+E. DIABOLICAL
 
-3. Game Begins…
+C. Game Begins…
 
-4. Possible later idea I have implementing the option for the player to choose if they get a question wrong, to get a pop box containing some info on the correct answers.
+D. Possible later idea I have implementing the option for the player to choose if they get a question wrong, to get a pop box containing some info on the correct answers.
 
 
 ## Phases of Completion
@@ -50,3 +50,8 @@ Monday = tackle pictures
 Tuesday = Polish
 
 ## Links and Resources  
+
+![imagename](./assets/image3.png)
+https://www.test-guide.com/Citizenship/
+![imagename](./assets/image4.png)
+https://mockflow.com/
