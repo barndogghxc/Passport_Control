@@ -62,7 +62,7 @@ html{
 	border-radius: 20px;
 }
 
-.next-btn{
+.nextButton{
 	border: none;
 	outline: none;
 	width: 100px;
@@ -73,14 +73,6 @@ html{
 	margin: 10px;
 
 }
-
-#result{
-
-}
-
-
-
-
 
 
 

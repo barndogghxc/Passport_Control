@@ -352,6 +352,8 @@ let hardQuestions = [{
   "choiceD": "The President",
   "answer": "A"
 }];
+
+
 let deathEaterQuestions = [{
   "question": "",
   "choiceA": "",
