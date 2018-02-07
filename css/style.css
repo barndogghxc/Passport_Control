@@ -1,11 +1,10 @@
 html{
-	/*background: url("./assets/passportcontrol.jpg") no-repeat center center fixed;
+	background: url("./assets/passportcontrol.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover; 
-	background-size: 100% 100%;*/
-	background: blue;
+	background-size: 100% 100%;
 }
 
 .contain{
@@ -47,7 +46,7 @@ html{
 	background: #0803BC;
 	border-radius: 20px;
 	margin: 10px 0 10px 0;
-	color: #f6f6f6;
+	color: #black;
 
 }
 
@@ -58,7 +57,7 @@ html{
 	vertical-align: middle;
 	background: blue;
 	margin: 10px 0 10px 10px;
-	color: #000000;
+	color: #black;
 	border-radius: 20px;
 }
 
@@ -73,17 +72,6 @@ html{
 	margin: 10px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
