@@ -1,5 +1,5 @@
 let beginnerQuestions = [{
- "question": : "During the Cold War, what was the main concern of the United States?",
+ "question": "During the Cold War, what was the main concern of the United States?",
  "choiceA": "Communism",
  "choiceB": "Taliban",
  "choiceC": "Mumble Rappers",
@@ -9,28 +9,28 @@ let beginnerQuestions = [{
 
  {
   "question": "Which of the following is a U.S. territory?",
-  "choiceA":  "Philipines",
-  "choiceB":  "Thailand",
+  "choiceA": "Philipines",
+  "choiceB": "Thailand",
   "choiceC": "Guam",
-  "choiceD":  "Hawaii",
+  "choiceD": "Hawaii",
   "answer": "C" 
 },
 
  {
   "question": "Why does the flag have 13 stripes?",
   "choiceA": "13 is a lucky number",
-  "choiceB":  "The original flagmaker had 13 children",
-  "choiceC":  "13 original colonies",
-  "choiceD":  "The 13 secret ingriedients to the chicken",
+  "choiceB": "The original flagmaker had 13 children",
+  "choiceC": "13 original colonies",
+  "choiceD": "The 13 secret ingriedients to the chicken",
   "answer": "C" 
 },
 
  {
   "question": "We elect a President for how many years?",
   "choiceA": "4",
-  "choiceB":  "12",
-  "choiceC":  "8",
-  "choiceD":  "5",
+  "choiceB": "12",
+  "choiceC": "8",
+  "choiceD": "5",
   "answer": "A"
 },
 
@@ -47,7 +47,7 @@ let beginnerQuestions = [{
   "question": "What do we call the first ten amendments to the Constitution?",
   "choiceA": "The Bill of Rights",
   "choiceB": "The Ten Commandments",
- "choiceC": "The Bill of Lading",
+  "choiceC": "The Bill of Lading",
   "choiceD": "The List of Ten",
   "answer": "A"
 },
@@ -64,18 +64,18 @@ let beginnerQuestions = [{
  {
   "question": "What was the purpose of the Declaration of Independence?",
   "choiceA": "Formed an alliance with South America",
-  "choiceB":  "Announced our independence from Great Britain",
-  "choiceC":  "Announced our independence from Germany",
-  "choiceD":  "Freed the slaves",
+  "choiceB": "Announced our independence from Great Britain",
+  "choiceC": "Announced our independence from Germany",
+  "choiceD": "Freed the slaves",
   "answer": "B"
 },
 
  {
   "question": "What is one purpose of the U.S. Constitution?",
   "choiceA": "Declared war",
-  "choiceB":  "Defines state laws",
-  "choiceC":  "Protects the basic rights of Americans",
-  "choiceD":  "Establishes treaties",
+  "choiceB": "Defines state laws",
+  "choiceC": "Protects the basic rights of Americans",
+  "choiceD": "Establishes treaties",
   "answer": "B"
 },
 
@@ -87,14 +87,7 @@ let beginnerQuestions = [{
   "choiceD": "The Declaration of Independence",
   "answer": "D"
 }];
-let easyQuestions = [];
-let mediumQuestions = [];
-let hardQuestions = [];
-let deathEaterQuestions = [];
-
- 
-
- {
+let easyQuestions = [{
   "question": "Name one state that borders Canada.",
   "choiceA": "New Jersey",
   "choiceB": "Idaho",
@@ -121,149 +114,168 @@ let deathEaterQuestions = [];
   "answer": "B"
 },
 
- {"question": "What is the name of the national anthem?",
- "O Say Can You See",
-  "The Star-Spangled Banner",
-  "America The Beautiful",
-  "Whistle while you Twerk",
+ {
+  "question": "What is the name of the national anthem?",
+  "choiceA": "O Say Can You See",
+  "choiceB": "The Star-Spangled Banner",
+  "choiceC": "America The Beautiful",
+  "choiceD": "Whistle while you Twerk",
+  "answer": "B"
+},
+
+ {
+  "question": "When do we celebrate Independence Day?",
+  "choiceA": "December 25",
+  "choiceB": "December 12",
+  "choiceC": "July 4",
+  "choiceD": "September 13",
+  "answer": "C" 
+},
+
+ {
+  "question": "How many stars does the flag have?",
+  "choiceA": "50",
+  "choiceB": "51",
+  "choiceC": "12",
+  "choiceD": "13",
+  "answer": "A"
+},
+
+ {
+  "question": "What did Susan B. Anthony do?",
+  "choiceA": "Fought for womens rights",
+  "choiceB": "Punched a Nazi",
+  "choiceC": "Went to General Assembly",
+  "choiceD": "Was an Instagram Model",
+  "answer": "A"
+},
+
+ {
+  "question":"Where is the Statue of Liberty?",
+  "choiceA": "New Jersey",
+  "choiceB": "Florida",
+  "choiceC": "Maine",
+  "choiceD": "Boston",
+  "answer": "A"
+},
+
+ {
+  "question": "Name the U.S. war between the North and the South",
+  "choiceA": "Civil War",
+  "choiceB": "The Cold War",
+  "choiceC": "World War I",
+  "choiceD":  "World War II",
+  "answer": "A"
+},
+
+ {
+  "question": "What happened at the Constitutional Convention?",
+  "choiceA": "The Founding Fathers wrote the Constitution",
+  "choiceB": "USA became independent",
+  "choiceC": "Founding Fathers discovered the Red Coats might be approaching",
+  "choiceD": "John Hancock Died",
+  "answer": "A"
+}];
+let mediumQuestions = [];
+let hardQuestions = [];
+let deathEaterQuestions = [];
+
+ {
+  "question": "Who was President during the Great Depression and World War II?",
+  "choiceA": "Franklin Roosevelt",
+  "choiceB": "Harry Truman",
+  "choiceC": "Calvin Coolidge",
+  "choiceD": "Richard Nixon",
+  "answer": "A"
+},
+
+{
+  "question":"Who was President during World War I?",
+  "choiceA":"Woodrow Wilson",
+  "choiceB":"George Washington",
+  "choiceC":"Abe Lincoln",
+  "choiceD":"John F. Kennedy",
+  "answer":"A"
+},
+
+{
+  "question":"What territory did the United States buy from France in 1803?",
+  "choiceA":"New York",
+  "choiceB":"Louisiana",
+  "choiceC":"Mississippi",
+  "choiceD":"California",
+  "answer": "B"
+},
+
+{
+  "question":"Who is the Father of Our Country?",
+  "choiceA":"Obama",
+  "choiceB":"Washington",
+  "choiceC":"Lincoln",
+  "choiceD":"Jefferson",
+  "answer": "B"
+},
+
+{
+  "question":"When was the Constitution written?",
+  "choiceA":"1902",
+  "choiceB":"1787",
+  "choiceC":"1802",
+  "choiceD":"1998",
+  "answer": "B"
+},
+{
+ "question":"When was the Declaration of Independence adopted?",
+ "choiceA":"July 4,1962",
+  "July 4,1776",
+  "July 4, 1600",
+  "July 4, 1998",
   "answer": "B"},
-
- {"question": "When do we celebrate Independence Day?",
- "December 25",
-  "December 12",
-  "July 4",
-  "September 13",
-  "answer": "C" } ,
-
- {"question": "How many stars does the flag have?",
- "50",
-  "51",
-  "12",
-  "13",
-  "answer":
-  "A"} ,
-
- "What did Susan B. Anthony do?",
- "Fought for womens rights",
-  "Punched a Nazi",
-  "Went to General Assembly",
-  "Was an Instagram Model",
-  "answer":
-  "A"},
-
- "Where is the Statue of Liberty?",
- "New Jersey",
-  "Florida",
-  "Maine",
-  "Boston",
-  "answer":
-  "A"} ,
-
- "Name the U.S. war between the North and the South",
- "Civil War",
-  "The Cold War",
-  "World War I",
-  "World War II",
-  "answer":
-  "A"} ,
-
- "What happened at the Constitutional Convention?",
- "The Founding Fathers wrote the Constitution",
-  "USA became independent",
-  "Founding Fathers discovered the Red Coats might be approaching",
-  "John Hancock Died",
-  "answer":
-  "A"},
-
- "Who was President during the Great Depression and World War II?",
- "Franklin Roosevelt",
-  "Harry Truman",
-  "Calvin Coolidge",
-  "Richard Nixon",
-  "answer":
-  "A"},
-
- "Who was President during World War I?",
- "Woodrow Wilson",
-  "George Washington",
-  "Abe Lincoln",
-  "John F. Kennedy",
-  "answer":
-  "A"},
-
- "What territory did the United States buy from France in 1803?",
- "New York",
-  "Louisiana",
-  "Mississippi",
-  "California",
-  "answer": "B"},
-
- "Who is the Father of Our Country?",
- "Obama",
-  "Washington",
-  "Lincoln",
-  "Jefferson",
-  "answer": "B"},
-
- "When was the Constitution written?",
- "1902",
-  "1787",
-  "1802",
-  "1998",
-  "answer": "B"},
-
- "When was the Declaration of Independence adopted?",
- "July 4,
-  1962",
-  "July 4,
-  1776",
-  "July 4,
-  1600",
-  "July 4,
-  1998",
-  "answer": "B"},
-
- "Who wrote the Declaration of Independence?",
-  "Lincoln",
+{
+ "question":"Who wrote the Declaration of Independence?",
+  "choiceA":"Lincoln",
  "Thomas Jefferson",
   "Bill Clinton",
   "George Washinton",
   "answer": "B"},
-
- "When must all men register for the Selective Service?",
- "16",
+{
+ "question":"When must all men register for the Selective Service?",
+ "choiceA":"16",
   "18",
   "21",
   "12",
   "answer": "B"},
-
- "When is the last day you can send in federal income tax forms?",
- "April 12",
+{
+ "question":"When is the last day you can send in federal income tax forms?",
+ "choiceA":"April 12",
   "April 16",
   "April 15",
   "October 15",
   "answer": "C" },
-
- "How old do citizens have to be to vote for President?",
- "16",
+{
+ "question":"How old do citizens have to be to vote for President?",
+ "choiceA":"16",
   "21",
   "18",
   "23",
-  "answer": "C" },
+  "answer": "C" 
+},
 
  "Which of these states do not border Mexico?",
  "Texas",
   "Arizona",
   "California",
   "New Jersey",
-  "answer": "D"},
+  "answer": "D"
+},
 
  "What Ocean is on the East Coast of the United States?",
  "Pacific",
   "Atlantic",
   "Artic",
   "Indian",
-  "answer": "B"},
+  "answer": "B"
+},
 
 {
   "question":  "How many U.S. Senators are there?",
@@ -271,16 +283,17 @@ let deathEaterQuestions = [];
   "100",
   "134",
   "72",
-  "answer": "B"},
+  "answer": "B"
+},
 
 {
-  "question": 
- "choiceA": "We elect a U.S. Representative for how many years?",
-  "choiceB": "6",
-  "choiceC":"4",
-  "2",
+  "question": "We elect a U.S. Representative for how many years?",
+  "choiceA": "6",
+  "choiceB":"4",
+  "choiceC":"2",
   "choiceD": "3",
-  "answer": "C" },
+  "answer": "C" 
+},
 
  {
   "question": "Why do some states have more Representatives than other states?",
@@ -319,7 +332,7 @@ let deathEaterQuestions = [];
 },
 
  {
-  "question": "What is the highest court in the United States?",
+  "question":"What is the highest court in the United States?",
   "choiceA":"The District Courts",
   "choiceB":"The Supreme Court",
   "choiceC":"The Appellate Courts",
@@ -328,7 +341,7 @@ let deathEaterQuestions = [];
 },
 
  {
-  "question": "How many justices are on the Supreme Court?",
+  "question":"How many justices are on the Supreme Court?",
   "choiceA":"9",
   "choiceB":"13",
   "choiceC":"2",
@@ -346,7 +359,7 @@ let deathEaterQuestions = [];
 },
 
   {
-    "question": : "What do we show loyalty to when we say the Pledge of Allegiance?",
+    "question":"What do we show loyalty to when we say the Pledge of Allegiance?",
     "choiceA":"The Flag",
     "choiceB":"The Army",
     "choiceC":"The fictious man in the sky",
