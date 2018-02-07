@@ -176,11 +176,7 @@ let easyQuestions = [{
   "choiceD": "John Hancock Died",
   "answer": "A"
 }];
-let mediumQuestions = [];
-let hardQuestions = [];
-let deathEaterQuestions = [];
-
- {
+let mediumQuestions = [{
   "question": "Who was President during the Great Depression and World War II?",
   "choiceA": "Franklin Roosevelt",
   "choiceB": "Harry Truman",
@@ -225,144 +221,224 @@ let deathEaterQuestions = [];
   "answer": "B"
 },
 {
- "question":"When was the Declaration of Independence adopted?",
- "choiceA":"July 4,1962",
-  "July 4,1776",
-  "July 4, 1600",
-  "July 4, 1998",
+  "question":"When was the Declaration of Independence adopted?",
+  "choiceA":"July 4,1962",
+  "choiceB":"July 4,1776",
+  "choiceC":"July 4, 1600",
+  "choiceD":"July 4, 1998",
   "answer": "B"},
 {
- "question":"Who wrote the Declaration of Independence?",
+  "question":"Who wrote the Declaration of Independence?",
   "choiceA":"Lincoln",
- "Thomas Jefferson",
-  "Bill Clinton",
-  "George Washinton",
-  "answer": "B"},
-{
- "question":"When must all men register for the Selective Service?",
- "choiceA":"16",
-  "18",
-  "21",
-  "12",
-  "answer": "B"},
-{
- "question":"When is the last day you can send in federal income tax forms?",
- "choiceA":"April 12",
-  "April 16",
-  "April 15",
-  "October 15",
-  "answer": "C" },
-{
- "question":"How old do citizens have to be to vote for President?",
- "choiceA":"16",
-  "21",
-  "18",
-  "23",
-  "answer": "C" 
-},
-
- "Which of these states do not border Mexico?",
- "Texas",
-  "Arizona",
-  "California",
-  "New Jersey",
-  "answer": "D"
-},
-
- "What Ocean is on the East Coast of the United States?",
- "Pacific",
-  "Atlantic",
-  "Artic",
-  "Indian",
+  "choiceB":"Thomas Jefferson",
+  "choiceC":"Bill Clinton",
+  "choiceD":"George Washinton",
   "answer": "B"
 },
 
 {
-  "question":  "How many U.S. Senators are there?",
- "choiceA": "89",
-  "100",
-  "134",
-  "72",
+  "question":"When must all men register for the Selective Service?",
+  "choiceA": "16",
+  "choiceB": "18",
+  "choiceC": "21",
+  "choiceD": "12",
+  "answer": "B"
+
+},
+
+{
+  "question":"When is the last day you can send in federal income tax forms?",
+  "choiceA": "April 12",
+  "choiceB": "April 16",
+  "choiceC": "April 15",
+  "choiceD": "October 15",
+  "answer": "C" 
+},
+
+{
+  "question":"How old do citizens have to be to vote for President?",
+  "choiceA": "16",
+  "choiceB": "21",
+  "choiceC": "18",
+  "choiceD": "23",
+  "answer": "C" 
+}];
+let hardQuestions = [{
+  "question": "How many U.S. Senators are there?",
+  "choiceA": "89",
+  "choiceB": "100",
+  "choiceC": "134",
+  "choiceD": "72",
   "answer": "B"
 },
 
 {
   "question": "We elect a U.S. Representative for how many years?",
   "choiceA": "6",
-  "choiceB":"4",
-  "choiceC":"2",
+  "choiceB": "4",
+  "choiceC": "2",
   "choiceD": "3",
   "answer": "C" 
 },
 
- {
+{
   "question": "Why do some states have more Representatives than other states?",
- "choiceA": "Because New Jersey is the best",
+  "choiceA": "Because New Jersey is the best",
   "choiceB": "Because screw Kansas",
-  "choiceC":"States Population",
+  "choiceC": "States Population",
   "choiceD": "The Electoral College is a Conspiracy",
   "answer": "C" 
 },
 
- {
+{
   "question": "Which of the following is not a U.S. National Holiday?",
- "choiceA": "Martin Luther King Day",
+  "choiceA": "Martin Luther King Day",
   "choiceB": "Veterans Day",
-  "choiceC":"Obama Day",
+  "choiceC": "Obama Day",
   "choiceD": "Christmas",
   "answer": "C"
 },
 
- {
+{
   "question": "In what month do we vote for President?",
- "choiceA": "April",
+  "choiceA": "April",
   "choiceB": "June",
-  "choiceC":"November",
+  "choiceC": "November",
   "choiceD": "October",
   "answer": "C"
 },
 
- {
+{
   "question": "Who signs bills to become laws?",
-  "choiceA":"The Vice President",
-  "choiceB":"The President",
-  "choiceC":"The Senate",
-  "choiceD":"The People",
+  "choiceA": "The Vice President",
+  "choiceB": "The President",
+  "choiceC": "The Senate",
+  "choiceD": "The People",
   "answer": "B"
 },
 
- {
-  "question":"What is the highest court in the United States?",
-  "choiceA":"The District Courts",
-  "choiceB":"The Supreme Court",
-  "choiceC":"The Appellate Courts",
-  "choiceD":"The County Court",
+{
+  "question": "What is the highest court in the United States?",
+  "choiceA": "The District Courts",
+  "choiceB": "The Supreme Court",
+  "choiceC": "The Appellate Courts",
+  "choiceD": "The County Court",
   "answer": "B"
 },
 
- {
-  "question":"How many justices are on the Supreme Court?",
-  "choiceA":"9",
-  "choiceB":"13",
-  "choiceC":"2",
-  "choiceD":"5",
+{
+  "question": "How many justices are on the Supreme Court?",
+  "choiceA": "9",
+  "choiceB": "13",
+  "choiceC": "2",
+  "choiceD": "5",
   "answer": "A"
 },
 
- {
+{
   "question": "What are the two major political parties in the United States?",
-  "choiceA":"Democratic & Republican",
-  "choiceB":"Democratic & Independent",
-  "choiceC":"Republican & Independent",
-  "choiceD":"Independent & Liberal",
+  "choiceA": "Democratic & Republican",
+  "choiceB": "Democratic & Independent",
+  "choiceC": "Republican & Independent",
+  "choiceD": "Independent & Liberal",
   "answer": "A"
 },
 
-  {
-    "question":"What do we show loyalty to when we say the Pledge of Allegiance?",
-    "choiceA":"The Flag",
-    "choiceB":"The Army",
-    "choiceC":"The fictious man in the sky",
-    "choiceD":"The President",
-    "answer": "A"
-}
+{
+  "question": "What do we show loyalty to when we say the Pledge of Allegiance?",
+  "choiceA": "The Flag",
+  "choiceB": "The Army",
+  "choiceC": "The fictious man in the sky",
+  "choiceD": "The President",
+  "answer": "A"
+}];
+let deathEaterQuestions = [{
+  "question": "",
+  "choiceA": "",
+  "choiceB": "",
+  "choiceC": "",
+  "choiceD": "",
+  "answer": ""
+},
+
+{
+  "question": "",
+  "choiceA": "",
+  "choiceB": "",
+  "choiceC": "",
+  "choiceD": "",
+  "answer": "" 
+},
+
+{
+  "question": "",
+  "choiceA": "",
+  "choiceB": "",
+  "choiceC": "",
+  "choiceD": "",
+  "answer": "" 
+},
+
+{
+  "question": "",
+  "choiceA": "",
+  "choiceB": "",
+  "choiceC": "",
+  "choiceD": "",
+  "answer": ""
+},
+
+{
+  "question": "",
+  "choiceA": "",
+  "choiceB": "",
+  "choiceC": "",
+  "choiceD": "",
+  "answer": ""
+},
+
+{
+  "question": "",
+  "choiceA": "",
+  "choiceB": "",
+  "choiceC": "",
+  "choiceD": "",
+  "answer": ""
+},
+
+{
+  "question": "",
+  "choiceA": "",
+  "choiceB": "",
+  "choiceC": "",
+  "choiceD": "",
+  "answer": ""
+},
+
+{
+  "question": "",
+  "choiceA": "",
+  "choiceB": "",
+  "choiceC": "",
+  "choiceD": "",
+  "answer": ""
+},
+
+{
+  "question": "",
+  "choiceA": "",
+  "choiceB": "",
+  "choiceC": "",
+  "choiceD": "",
+  "answer": ""
+},
+
+{
+  "question": "",
+  "choiceA": "",
+  "choiceB": "",
+  "choiceC": "",
+  "choiceD": "",
+  "answer": ""
+}];
+
