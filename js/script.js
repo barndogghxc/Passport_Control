@@ -16,22 +16,38 @@ let correct = 0;
 
 let questions = [
 
-[ "We elect a U.S. Senator for how many years?", "4", "8", "6", "10", "C" ],
-[ "During the Cold War, what was the main concern of the United States?", "Communism", "Taliban", "Mumble Rappers", "Nepotism", "A" ],
-[ "Which of the following is a U.S. territory?", "Philipines", "Thailand", "Guam", "Hawaii", "C"],
-[ "Why does the flag have 13 stripes?", "13 is a lucky number", "The original flagmaker had 13 children", "13 original colonies", "The 13 secret ingriedients to the chicken", "C"],
-[ "We elect a President for how many years?", "4", "12", "8", "5", "A" ],
-[ "If the President can no longer serve, who becomes President?", "Chief of Staff", "The Vice President", "Secretary of State", "Lead General", "B"], 
-[ "What do we call the first ten amendments to the Constitution?","The Bill of Rights", "The Ten Commandments", "The Bill of Lading", "The List of Ten", "A"],
-[ "Which is a right or freedom from the First Amendment?", "Right to vote", "Right to avoid taxes", "Right to free exercise of religion", "Right to bear arms", "C"],
-[ "What was the purpose of the Declaration of Independence?", "Formed an alliance with South America", "Announced our independence from Great Britain", "Announced our independence from Germany", "Freed the slaves", "B"],
-[ "What is one purpose of the U.S. Constitution?", "Declared war", "Defines state laws", "Protects the basic rights of Americans", "Establishes treaties", "B"],
-[ "What severed ties with Great Britain?", "The President of the United States", "The Supreme Court", "The U.S. Constitution","The Declaration of Independence", "D"],
-[ "Before he was President, Eisenhower was a general. What war was he in?", "World War II", "World War I", "Civil War", "Vietnam War", "A"],
-[ "Name one state that borders Canada", "New Jersey", "Idaho", "Ohio", "Massachusetts", "B" ],
-[ "Name one state that borders Mexico", "Florida", "California", "Utah", "Ohio", "B" ],
-[ "What is the capital of the United States?", "Washington", "Washington, D.C.", "New York City", "Chicago", "B" ],
-[ "What is the name of the national anthem?", "O Say Can You See", "The Star-Spangled Banner", "America The Beautiful", "Whistle while you Twerk", "B"],
+[ "We elect a U.S. Senator for how many years?", 
+["4", "8", "6", "10", "C" ],
+[ "During the Cold War, what was the main concern of the United States?", 
+["Communism", "Taliban", "Mumble Rappers", "Nepotism", "A" ],
+[ "Which of the following is a U.S. territory?", "Philipines", "Thailand", 
+["Guam", "Hawaii", "C"],
+[ "Why does the flag have 13 stripes?", 
+["13 is a lucky number", "The original flagmaker had 13 children", "13 original colonies", "The 13 secret ingriedients to the chicken", "C"],
+[ "We elect a President for how many years?", 
+["4", "12", "8", "5", "A" ],
+[ "If the President can no longer serve, who becomes President?", 
+["Chief of Staff", "The Vice President", "Secretary of State", "Lead General", "B"], 
+[ "What do we call the first ten amendments to the Constitution?",
+["The Bill of Rights", "The Ten Commandments", "The Bill of Lading", "The List of Ten", "A"],
+[ "Which is a right or freedom from the First Amendment?", 
+["Right to vote", "Right to avoid taxes", "Right to free exercise of religion", "Right to bear arms", "C"],
+[ "What was the purpose of the Declaration of Independence?", 
+["Formed an alliance with South America", "Announced our independence from Great Britain", "Announced our independence from Germany", "Freed the slaves", "B"],
+[ "What is one purpose of the U.S. Constitution?", 
+["Declared war", "Defines state laws", "Protects the basic rights of Americans", "Establishes treaties", "B"],
+[ "What severed ties with Great Britain?", 
+["The President of the United States", "The Supreme Court", "The U.S. Constitution","The Declaration of Independence", "D"],
+[ "Before he was President, Eisenhower was a general. What war was he in?", 
+["World War II", "World War I", "Civil War", "Vietnam War", "A"],
+[ "Name one state that borders Canada", 
+["New Jersey", "Idaho", "Ohio", "Massachusetts", "B" ],
+[ "Name one state that borders Mexico", 
+["Florida", "California", "Utah", "Ohio", "B" ],
+[ "What is the capital of the United States?", 
+["Washington", "Washington, D.C.", "New York City", "Chicago", "B" ],
+[ "What is the name of the national anthem?", 
+["O Say Can You See", "The Star-Spangled Banner", "America The Beautiful", "Whistle while you Twerk", "B"],
 [ "When do we celebrate Independence Day?", "December 25", "December 12", "July 4", "September 13", "C" ],
 [ "How many stars does the flag have?", "50", "51", "12", "13", "A" ],
 [ "What did Susan B. Anthony do?", "Fought for womens rights", "Punched a Nazi", "Went to General Assembly", "Was an Instagram Model", "A"],
@@ -89,7 +105,7 @@ function render(){
 		
 function checkAnswer () {
 	choices  = document.getElementsByName("choices");
-	for(let i=0; i <choices.length; i++) {
+	for(let i=0; i < choices.length; i++) {
 		if(choices[i].checked) {
 			choice = choices[i].value;
 		}

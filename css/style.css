@@ -1,18 +1,87 @@
 html{
-	background: url("./assets/passportcontrol.jpg") no-repeat center center fixed;
+	/*background: url("./assets/passportcontrol.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover; 
-	background-size: 100% 100%;
+	background-size: 100% 100%;*/
+	background: blue;
 }
 
-h2 {
-	color: white;
-    text-align: center;
+.contain{
+	height: 330px;
+	width: 1000px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	background: black;
+	padding: 20px;
+	border: 1px solid pink;
+	box-shadow: 0 0 8px 3px #fff;
+
+
 }
-#test {
-    color: #E066FF;
-    text-align: center;
-    border: pink; 
+
+.title{
+	padding-top: 20px;
+	text-align: center;
+	font-size: 36px;
+	text-transform: uppercase;
+	color: #0803BC;
+}
+
+.question{
+	padding: 20px;
+	font-size: 22px;
+	background: #0803BC;
+	border-radius: 20px;
+	margin: 10px 0 10px 0;
+	color: #f6f6f6;
+
+}
+
+.choice{
+	width: 470px;
+	display: inline-block;
+	padding: 10px 0 10px 0;
+	vertical-align: middle;
+	background: blue;
+	margin: 10px 0 10px 10px;
+	color: #000000;
+	border-radius: 20px;
+}
+
+.next-btn{
+	border: none;
+	outline: none;
+	width: 100px;
+	height:30px;
+	border-radius: 20px;
+	cursor: pointer;
+	float: right;
+	margin: 10px;
+
+}
+
+#result{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
