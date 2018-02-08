@@ -6,11 +6,12 @@
 		  <link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-
+	 <div class="wrapper">
      <div class="timer"></div>
 
-		<div id="quizContain" class="contain">
+		<div id="quizContain" class="flex-contain">
 			<div class="title">Passport Control</div>
+			
 			<div id="question" class="question"></div>
 			<label class="choice"><input type='radio' name='choice' value='A'/> <span id="chA"></span></label>
 			<label class="choice"><input type='radio' name='choice' value='B'/> <span id="chB"></span></label>
@@ -19,6 +20,7 @@
 			<button id="nextButton" class="nextButton" onclick='renderNext();'>Next Question</button>
 		</div>
 	   	<div id="result" class="containResult" style="display:none"></div>
+	   	</div>
     	<script src="js/questions.js"></script>
 		<script src="js/script.js"></script>
 
