@@ -43,7 +43,7 @@ function formStart() {
         startTimer(15)
       } else if (level === 'deathEater-start') {
         $('.form').hide()
-        questSet = deathEaterQuestions
+        totalQuestions = deathEaterQuestions
         render(index)
         startTimer(15)
       }
