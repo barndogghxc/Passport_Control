@@ -31,7 +31,7 @@ function formStart() {
         totalQuestions = easyQuestions
         render(index)
         startTimer(30)
-      } else if (level === 'medium-start-start') {
+      } else if (level === 'medium-start') {
         $('.form').hide()
         totalQuestions = mediumQuestions
         render(index)
