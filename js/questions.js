@@ -1,4 +1,4 @@
-let beginnerQuestions = [{
+let questions = [{
  "question": "During the Cold War, what was the main concern of the United States?",
  "choiceA": "Communism",
  "choiceB": "Taliban",
